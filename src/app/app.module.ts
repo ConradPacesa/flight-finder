@@ -6,12 +6,12 @@ import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
-import { MainComponent } from './main/main.component';
+import { FlightComponent } from './flight/flight.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    FlightComponent
   ],
   imports: [
     BrowserModule,
